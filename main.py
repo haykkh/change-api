@@ -11,4 +11,4 @@ def read_root():
 
 @app.get("/data")
 def read_data():
-    return json.load(open('../scrape/data.json'))
+    return json.load(open('/home/ec2-user/data.json'))
